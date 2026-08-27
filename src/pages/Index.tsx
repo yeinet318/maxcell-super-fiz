@@ -1,4 +1,4 @@
-import { 
+  import { 
   Smartphone, 
   Battery, 
   MonitorSmartphone, 
@@ -69,7 +69,7 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* ===== HERO CON FONDO DE CIRCUITO ELECTRÓNICO ===== */}
+      {/* ===== HERO ===== */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0 bg-[#0a0e17]">
           <svg className="absolute inset-0 w-full h-full opacity-30" xmlns="http://www.w3.org/2000/svg">
@@ -390,3 +390,4 @@ const Index = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-gray-400 mb-8">
                 <span className="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10">
+                  <MapPin className="w-5 h-5 text-
