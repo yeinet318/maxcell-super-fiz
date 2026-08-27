@@ -1,2 +1,3 @@
-# maxcell-super-fiz
-Primer commit: Proyecto MaxCell - Tienda de reparación de celulares
+# Welcome to your Lovable project
+
+TODO: Document your project here
