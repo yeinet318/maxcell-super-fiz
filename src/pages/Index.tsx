@@ -25,7 +25,7 @@ const WHATSAPP_LINK = "https://wa.me/573183606186?text=Hola%2C%20quiero%20inform
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen circuit-bg">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
         <div className="container flex items-center justify-between h-16">
@@ -86,7 +86,7 @@ const Index = () => {
       </section>
 
       {/* Services */}
-      <section id="servicios" className="py-24 bg-background">
+      <section id="servicios" className="py-24 bg-transparent">
         <div className="container">
           <h2 className="font-display text-4xl md:text-5xl font-bold uppercase text-center mb-4">
             Nuestros <span className="text-primary">Servicios</span>
@@ -138,7 +138,7 @@ const Index = () => {
       </section>
 
       {/* Electronic Repair Highlight */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-transparent">
         <div className="container">
           <div className="bg-card border-2 border-primary/40 rounded-3xl p-8 md:p-10 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden">
             <div className="absolute -top-16 -left-16 w-48 h-48 bg-primary/10 rounded-full blur-3xl" />
@@ -209,7 +209,7 @@ const Index = () => {
       </section>
 
       {/* Contact / CTA */}
-      <section className="py-24 bg-background">
+      <section className="py-24 bg-transparent">
         <div className="container">
           <div className="bg-card border border-border rounded-3xl p-10 md:p-16 text-center max-w-3xl mx-auto relative overflow-hidden">
             <div className="absolute -top-20 -right-20 w-60 h-60 bg-primary/10 rounded-full blur-3xl" />
