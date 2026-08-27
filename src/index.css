@@ -64,3 +64,28 @@
     @apply font-display;
   }
 }
+
+/* Circuit board background */
+.circuit-bg {
+  position: relative;
+  background-color: hsl(0 0% 5%);
+  background-image:
+    linear-gradient(hsl(25 95% 53% / 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(25 95% 53% / 0.07) 1px, transparent 1px),
+    radial-gradient(circle at 15% 20%, hsl(25 95% 53% / 0.12) 0, transparent 3px),
+    radial-gradient(circle at 85% 15%, hsl(25 95% 53% / 0.1) 0, transparent 3px),
+    radial-gradient(circle at 70% 65%, hsl(25 95% 53% / 0.12) 0, transparent 3px),
+    radial-gradient(circle at 25% 80%, hsl(25 95% 53% / 0.1) 0, transparent 3px),
+    radial-gradient(circle at 95% 90%, hsl(25 95% 53% / 0.1) 0, transparent 3px);
+  background-size: 48px 48px, 48px 48px, 48px 48px, 48px 48px, 48px 48px, 48px 48px, 48px 48px;
+}
+
+.circuit-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 500px 300px at 10% 0%, hsl(25 95% 53% / 0.15), transparent 60%),
+    radial-gradient(ellipse 500px 300px at 90% 100%, hsl(25 95% 53% / 0.12), transparent 60%);
+}
