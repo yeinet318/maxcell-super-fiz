@@ -252,7 +252,7 @@ const Index = () => {
             {" "}© {new Date().getFullYear()} — Todos los derechos reservados
           </div>
           <div className="text-xs text-muted-foreground/70">
-            Powered by <span className="text-primary font-semibold">Yeiner Castillo</span>
+            Powered by <span className="text-primary font-semibold">Yeiner Castillo</span> & <span className="text-primary font-semibold">Samuel Bonivento</span>
           </div>
         </div>
       </footer>
