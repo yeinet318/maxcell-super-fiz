@@ -246,9 +246,14 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 border-t border-border">
-        <div className="container text-center text-muted-foreground text-sm">
-          <span className="font-display text-foreground font-bold">MAX<span className="text-primary">CELL</span></span>
-          {" "}© {new Date().getFullYear()} — Todos los derechos reservados
+        <div className="container text-center text-muted-foreground text-sm space-y-1">
+          <div>
+            <span className="font-display text-foreground font-bold">MAX<span className="text-primary">CELL</span></span>
+            {" "}© {new Date().getFullYear()} — Todos los derechos reservados
+          </div>
+          <div className="text-xs text-muted-foreground/70">
+            Powered by <span className="text-primary font-semibold">Yeiner Castillo</span>
+          </div>
         </div>
       </footer>
     </div>
